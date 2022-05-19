@@ -1,0 +1,59 @@
+body{
+    margin: 0;
+    padding: 0;
+    color:rgb(112, 111, 111);
+    font-size: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.decription article{
+    display: flex;
+    flex-direction: column;
+    padding-top: 2rem;
+    font-size: 2rem;
+    border-bottom: solid 2px rgb(112, 111, 111);
+}
+.decription article img{
+    margin: 2rem;
+    height:5rem;
+    width: 40rem;
+    align-items: center;
+    padding-left: 8rem;
+}
+
+.directions{
+    font-size: 2rem;
+    border-bottom: solid 2px rgb(112, 111, 111);
+    padding: 0 13.3rem;
+}
+.directions li{
+    list-style: none;
+}
+
+.ingredients{
+    font-size: 2rem;
+    border-bottom: solid 2px rgb(112, 111, 111);
+    padding: 0 13.3rem;
+}
+.ingredients li{
+    list-style: none;
+}
+
+.title{
+    display: inline;
+    color: white;
+    background-image: url(/apple-pie/images/apple-pie.jpg);
+    background-position: 0, 0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: fit-content;
+}
+.title h1{
+    font-size:3rem;
+    align-items: center;
+    justify-content: center;
+    margin: 20rem 35rem;
+}
+
